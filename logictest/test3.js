@@ -54,4 +54,9 @@ var hargaMakanan = [
 ]
 
 var historyPembelian = `Senin-ayam,nasi,cola.Selasa-chiki,hotdog.Rabu-ayam,chiki.Kamis-hotdog.Jumat-chiki,cola,nasi`
+
+var split = historyPembelian.split(".")
+console.log(split)
+console.log(hargaMakanan)
+
 console.log(jumlahTabungan(hargaMakanan, historyPembelian))
